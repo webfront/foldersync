@@ -30,7 +30,7 @@ def setup_logging(config: dict):
     """
     log_config = config.get("logging", {})
     log_level_str = log_config.get("level", "INFO").upper()
-    log_file = log_config.get("file", "logs\\backup.log")
+    log_file = log_config.get("file", "e:\\logs\\backup.log")
 
     log_level = getattr(logging, log_level_str, logging.INFO)
 

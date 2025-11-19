@@ -104,6 +104,7 @@ def run_backup_task(task: Dict, robocopy_options: Dict) -> bool:
         
         if return_code >= 8:
             logger.error(f"Task failed with return code {return_code}")
+            logger.error(f"Stdout: {result.stdout}")
             logger.error(f"Stderr: {result.stderr}")
             return False
         else:

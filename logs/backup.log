@@ -8,3 +8,83 @@
 2025-11-19 14:49:09,168 - src.backup - INFO - Task completed successfully (Code 1)
 2025-11-19 14:49:09,168 - src.backup - INFO - All backup tasks completed successfully.
 2025-11-19 14:49:09,168 - __main__ - INFO - Backup run finished.
+2025-11-19 15:04:36,309 - root - INFO - Logging initialized.
+2025-11-19 15:04:36,310 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:04:36,310 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:04:36,310 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:04:36,310 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:04:36,310 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /E /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:04:36,428 - src.backup - INFO - Robocopy return code: 3
+2025-11-19 15:04:36,429 - src.backup - INFO - Task completed successfully (Code 3)
+2025-11-19 15:04:36,429 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:04:36,429 - __main__ - INFO - Backup run finished.
+2025-11-19 15:06:53,534 - root - INFO - Logging initialized.
+2025-11-19 15:06:53,535 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:06:53,535 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:06:53,535 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:06:53,535 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:06:53,535 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /E /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:06:53,551 - src.backup - INFO - Robocopy return code: 3
+2025-11-19 15:06:53,552 - src.backup - INFO - Task completed successfully (Code 3)
+2025-11-19 15:06:53,552 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:06:53,552 - __main__ - INFO - Backup run finished.
+2025-11-19 15:07:38,298 - root - INFO - Logging initialized.
+2025-11-19 15:07:38,298 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:07:38,298 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:07:38,298 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:07:38,298 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:07:38,299 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /E /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:07:38,315 - src.backup - INFO - Robocopy return code: 3
+2025-11-19 15:07:38,315 - src.backup - INFO - Task completed successfully (Code 3)
+2025-11-19 15:07:38,315 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:07:38,315 - __main__ - INFO - Backup run finished.
+2025-11-19 15:07:49,482 - root - INFO - Logging initialized.
+2025-11-19 15:07:49,482 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:07:49,482 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:07:49,482 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:07:49,482 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:07:49,482 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /E /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:07:49,497 - src.backup - INFO - Robocopy return code: 2
+2025-11-19 15:07:49,497 - src.backup - INFO - Task completed successfully (Code 2)
+2025-11-19 15:07:49,497 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:07:49,497 - __main__ - INFO - Backup run finished.
+2025-11-19 15:10:19,976 - root - INFO - Logging initialized.
+2025-11-19 15:10:19,976 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:10:19,976 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:10:19,976 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:10:19,976 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:10:19,977 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:10:19,992 - src.backup - INFO - Robocopy return code: 1
+2025-11-19 15:10:19,993 - src.backup - INFO - Task completed successfully (Code 1)
+2025-11-19 15:10:19,993 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:10:19,993 - __main__ - INFO - Backup run finished.
+2025-11-19 15:10:33,470 - root - INFO - Logging initialized.
+2025-11-19 15:10:33,470 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:10:33,470 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:10:33,470 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:10:33,470 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:10:33,470 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:10:33,484 - src.backup - INFO - Robocopy return code: 2
+2025-11-19 15:10:33,485 - src.backup - INFO - Task completed successfully (Code 2)
+2025-11-19 15:10:33,485 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:10:33,485 - __main__ - INFO - Backup run finished.
+2025-11-19 15:10:48,916 - root - INFO - Logging initialized.
+2025-11-19 15:10:48,916 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:10:48,916 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:10:48,917 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:10:48,917 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:10:48,917 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:10:48,931 - src.backup - INFO - Robocopy return code: 2
+2025-11-19 15:10:48,931 - src.backup - INFO - Task completed successfully (Code 2)
+2025-11-19 15:10:48,932 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:10:48,932 - __main__ - INFO - Backup run finished.
+2025-11-19 15:11:27,990 - root - INFO - Logging initialized.
+2025-11-19 15:11:27,990 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 15:11:27,990 - src.backup - INFO - Starting task: EDrive_docs
+2025-11-19 15:11:27,990 - src.backup - INFO - Source: e:\docs
+2025-11-19 15:11:27,991 - src.backup - INFO - Destination: D:\Backups\DevDrive\docs
+2025-11-19 15:11:27,991 - src.backup - INFO - Command: robocopy e:\docs D:\Backups\DevDrive\docs /MIR /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 15:11:28,007 - src.backup - INFO - Robocopy return code: 2
+2025-11-19 15:11:28,007 - src.backup - INFO - Task completed successfully (Code 2)
+2025-11-19 15:11:28,007 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 15:11:28,007 - __main__ - INFO - Backup run finished.

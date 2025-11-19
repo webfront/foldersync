@@ -4,49 +4,42 @@
             "name": "EDrive_docs",
             "source": "e:\\docs",
             "destination": "D:\\Backups\\DevDrive\\docs",
-            "backup_type": "incremental",
+            "backup_type": "full",
             "exclude": []
         },
         {
             "name": "EDrive_jmeter",
             "source": "e:\\jmeter",
             "destination": "D:\\Backups\\DevDrive\\jmeter",
-            "backup_type": "incremental",
+            "backup_type": "full",
             "exclude": []
         },
         {
             "name": "EDrive_scripts",
             "source": "e:\\scripts",
             "destination": "D:\\Backups\\DevDrive\\scripts",
-            "backup_type": "incremental",
-            "exclude": []
-        },
-        {
-            "name": "EDrive_repos",
-            "source": "e:\\repos",
-            "destination": "D:\\Backups\\DevDrive\\repos",
-            "backup_type": "incremental",
+            "backup_type": "full",
             "exclude": []
         },
         {
             "name": "EDrive_vscode_workspaces",
             "source": "e:\\vscode_workspaces",
             "destination": "D:\\Backups\\DevDrive\\vscode_workspaces",
-            "backup_type": "incremental",
+            "backup_type": "full",
             "exclude": []
         },
         {
             "name": "C_Obsidian_Vault",
             "source": "c:\\dev\\Obsidian\\vaults",
             "destination": "d:\\backups\\Obsidian_Vaults",
-            "backup_type": "incremental",
+            "backup_type": "full",
             "exclude": []
         },
         {
             "name": "e_logs",
             "source": "e:\\logs",
             "destination": "d:\\backups\\devdrive\\logs",
-            "backup_type": "incremental",
+            "backup_type": "full",
             "exclude": []
         }
     ],
