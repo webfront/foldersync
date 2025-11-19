@@ -1,0 +1,19 @@
+{
+    "backup_tasks": [
+        {
+            "name": "Test Backup Task",
+            "source": "e:\\repos\\repos_utilities\\foldersync\\test_source",
+            "destination": "e:\\repos\\repos_utilities\\foldersync\\test_dest",
+            "backup_type": "full",
+            "exclude": []
+        }
+    ],
+    "logging": {
+        "level": "INFO",
+        "file": "logs\\backup.log"
+    },
+    "robocopy_options": {
+        "retry_count": 3,
+        "wait_time": 5
+    }
+}

@@ -1,0 +1,10 @@
+2025-11-19 14:49:09,139 - root - INFO - Logging initialized.
+2025-11-19 14:49:09,139 - __main__ - INFO - Starting Backup System in CLI Mode
+2025-11-19 14:49:09,140 - src.backup - INFO - Starting task: Test Backup Task
+2025-11-19 14:49:09,140 - src.backup - INFO - Source: e:\repos\repos_utilities\foldersync\test_source
+2025-11-19 14:49:09,140 - src.backup - INFO - Destination: e:\repos\repos_utilities\foldersync\test_dest
+2025-11-19 14:49:09,141 - src.backup - INFO - Command: robocopy e:\repos\repos_utilities\foldersync\test_source e:\repos\repos_utilities\foldersync\test_dest /MIR /Z /TS /NP /NDL /NFL /R:3 /W:5
+2025-11-19 14:49:09,168 - src.backup - INFO - Robocopy return code: 1
+2025-11-19 14:49:09,168 - src.backup - INFO - Task completed successfully (Code 1)
+2025-11-19 14:49:09,168 - src.backup - INFO - All backup tasks completed successfully.
+2025-11-19 14:49:09,168 - __main__ - INFO - Backup run finished.
