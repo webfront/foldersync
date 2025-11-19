@@ -102,11 +102,17 @@ def run_backup_task(task: Dict, robocopy_options: Dict) -> bool:
         return_code = result.returncode
         logger.info(f"Robocopy return code: {return_code}")
         
-        if return_code >= 8:
+        if return_code >= 16:
+            # Serious error - complete failure
             logger.error(f"Task failed with return code {return_code}")
             logger.error(f"Stdout: {result.stdout}")
             logger.error(f"Stderr: {result.stderr}")
             return False
+        elif return_code >= 8:
+            # Partial failure - some files/dirs failed but others succeeded
+            logger.warning(f"Task completed with warnings/partial failures (Code {return_code})")
+            logger.warning(f"Stdout: {result.stdout}")
+            return True  # or False, depending on your requirements
         else:
             logger.info(f"Task completed successfully (Code {return_code})")
             return True
